@@ -1,3 +1,83 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+$navbar-default-bg: rgb(125, 117, 155);
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#navbar a {
+  color: #fff;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('fish.jpg');
+  background-size: cover;
+  height: 840px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 500px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-signUp {
+  background-color: rgb(125, 117, 155);
+  border: none;
+  font-size: 1.7em;
+}
+
+.btn-signUp:hover, .btn-signUp:focus, .btn-signUp:active.focus, .btn-signUp.active:hover, .btn-signUp.active:focus, .btn-signUp.active.focus {
+  color: #fff;
+  background-color: rgb(74, 69, 92) !important;
+}
+
+footer {
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
