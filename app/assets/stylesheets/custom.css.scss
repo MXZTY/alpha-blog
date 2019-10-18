@@ -58,7 +58,17 @@ $navbar-default-bg: rgb(125, 117, 155);
   background-color: rgb(74, 69, 92) !important;
 }
 
+.article-actions {
+  border-top: 1px solid rgb(125, 117, 155);
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 footer {
+  margin-top: 20px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
