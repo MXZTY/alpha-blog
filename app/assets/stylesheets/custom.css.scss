@@ -26,7 +26,7 @@ $primary: rgb(125, 117, 155) !important;
 }
 
 #logo:hover {
-  color: #fff;
+  color: rgb(83, 79, 79);
   text-decoration: none;
 }
 
@@ -35,9 +35,10 @@ $primary: rgb(125, 117, 155) !important;
 }
 
 .jumbotron {
-  background-image: asset-url('fish.jpg');
+  background-image: asset-url('desk.jpg');
+  background-position: 80% 20%;
   background-size: cover;
-  height: 840px;
+  padding-top: 100px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -50,7 +51,7 @@ $primary: rgb(125, 117, 155) !important;
 .jumbotron h1 {
   color: #fff;
   text-align: center;
-  margin-bottom: 500px;
+  margin-bottom: 400px;
   letter-spacing: -1px;
   font-weight: bold;
 }
@@ -60,8 +61,9 @@ $primary: rgb(125, 117, 155) !important;
   border: none;
 }
 
-.btn-signUp-large {
-  font-size: 1.7em;
+.btn-large {
+  font-size: 1.2em;
+  padding: 10px !important;
 }
 
 .btn-signUp:hover, .btn-signUp:focus, .btn-signUp:active.focus, .btn-signUp.active:hover, .btn-signUp.active:focus, .btn-signUp.active.focus {
@@ -92,8 +94,6 @@ $primary: rgb(125, 117, 155) !important;
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus {
   color: #fff;
   background-color: rgb(74, 69, 92) !important;
-  border: 5px;
-  border-color: rgb(74, 69, 92);
 }
 
 
@@ -118,7 +118,7 @@ $primary: rgb(125, 117, 155) !important;
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
