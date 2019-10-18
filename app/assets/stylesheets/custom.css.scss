@@ -1,5 +1,6 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 $navbar-default-bg: rgb(125, 117, 155);
+$primary: rgb(125, 117, 155) !important;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -50,6 +51,9 @@ $navbar-default-bg: rgb(125, 117, 155);
 .btn-signUp {
   background-color: rgb(125, 117, 155);
   border: none;
+}
+
+.btn-signUp-large {
   font-size: 1.7em;
 }
 
@@ -58,13 +62,46 @@ $navbar-default-bg: rgb(125, 117, 155);
   background-color: rgb(74, 69, 92) !important;
 }
 
+.btn-danger {
+  border-top: 5px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.btn-primary {
+  background-color: rgb(125, 117, 155);
+  border-top: 5px;
+  border-color: rgb(74, 69, 92);
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus {
+  color: #fff;
+  background-color: rgb(74, 69, 92) !important;
+  border: 5px;
+  border-color: rgb(74, 69, 92);
+}
+
+
 .article-actions {
-  border-top: 1px solid rgb(125, 117, 155);
+  border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
 
 .description {
   margin-top: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 footer {
