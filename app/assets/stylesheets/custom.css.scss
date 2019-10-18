@@ -9,6 +9,13 @@ $primary: rgb(125, 117, 155) !important;
   color: #fff;
 }
 
+.dropdown-menu{
+  background-color: rgb(74, 69, 92) !important;
+}
+.dropdown-menu li a:hover{
+  background-color:rgb(125, 117, 155);
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
