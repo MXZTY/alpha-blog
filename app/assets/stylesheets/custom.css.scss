@@ -34,7 +34,7 @@ $primary: rgb(125, 117, 155) !important;
   text-align: center;
 }
 
-.jumbotron {
+.jumbotron-main {
   background-image: asset-url('desk.jpg');
   background-position: 80% 20%;
   background-size: cover;
@@ -42,17 +42,29 @@ $primary: rgb(125, 117, 155) !important;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.jumbotron {
+  background-image: asset-url('spaceShot.jpg');
+  background-position: 80% 20%;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
 .navbar {
   width: 100%;
   text-align: center;
 }
 
-.jumbotron h1 {
+.jumbotron h1, .jumbotron-main h1 {
   color: #fff;
   text-align: center;
   margin-bottom: 400px;
   letter-spacing: -1px;
   font-weight: bold;
+}
+
+.jumbotron-signup h1 {
+  margin-bottom: 100px;
 }
 
 .btn-signUp {
