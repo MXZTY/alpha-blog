@@ -13,4 +13,9 @@ Rails.application.routes.draw do
 
   #provides all the routes except for the 'new' route which is handled by signup above ^^
   resources :users, except: [:new]
+
+  get 'login', to: 'sessions#new'
+  post 'login', to: 'sessions#create'
+  delete 'logout', to: 'sessions#destroy'
+  
 end
