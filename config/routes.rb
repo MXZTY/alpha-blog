@@ -8,8 +8,8 @@ Rails.application.routes.draw do
 
   # gives us a new article path for POST, EDIT, a PATCH , DELETE, SHOW, INDEX 
   resources :articles
-
   get 'signup', to: 'users#new'
+ 
 
   #provides all the routes except for the 'new' route which is handled by signup above ^^
   resources :users, except: [:new]
